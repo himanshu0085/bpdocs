@@ -97,11 +97,13 @@
 ---
 
 ## 📊 5. Expected Deliverables
-- GHAS Evaluation Report (Capabilities + Limitations)
-- CLI & API Integration Guide
-- Secure GitHub Actions Best Practices Document
-- PoC Repo (Local GHAS + Action Security)
-- Presentation Deck for Internal Demo
+- Sample repository with **CodeQL code scanning** configured
+- Test repository demonstrating **Secret Scanning alerts** (trigger + resolve)
+- Repository showcasing **Dependabot vulnerability alerts**
+- Example **CLI commands** for running CodeQL locally
+- Example **API commands/scripts** to fetch GHAS alerts (CodeQL, Secrets, Dependabot)
+- A **one-page technical summary** of the three GHAS components
+- A **PoC repository** containing workflows and scan outputs
 
 ---
 
