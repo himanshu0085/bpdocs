@@ -85,7 +85,7 @@
 
 ---
 
-## 4. One-Week Tentative Timeline (Day-by-Day Plan)
+## 🗓️ 4. One-Week Tentative Timeline (Day-by-Day Plan)
 
 | Day | Deliverable | Description |
 |-----|-------------|-------------|
@@ -95,7 +95,7 @@
 | Day 4 | Secret Scanning | Add a test secret, validate alerts, resolve alerts, test API retrieval. |
 | Day 5 | Dependabot Alerts | Enable Dependabot, introduce vulnerable dependency, test alerts and API. |
 | Day 6 | CLI & API Automation | Write scripts for CodeQL scans, uploading SARIF, fetching alerts via API. |
-| Day 7 | PoC + Documentation | Finalize PoC repo, summary document, and prepare demo slides. |
+| Day 7 | PoC + Documentation | Finalize PoC repo, summary document. |
 
 
 ---
@@ -111,15 +111,7 @@
 
 ---
 
-## 🧠 6. Long-Term Next Steps (Post Exploration)
-- Evaluate integration with internal CI/CD pipelines (Jenkins, GitLab, etc.)  
-- Automate GHAS report ingestion to centralized dashboards.  
-- Investigate custom CodeQL queries for org-specific security policies.  
-- Enable org-wide security configurations through GitHub REST API.
-
----
-
-## 📎 7. References
+## 📎 6. References
 - [GitHub Advanced Security Docs](https://docs.github.com/en/code-security)
 - [CodeQL CLI Manual](https://codeql.github.com/docs/codeql-cli/)
 - [GitHub REST API Docs](https://docs.github.com/en/rest)
