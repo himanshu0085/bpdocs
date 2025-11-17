@@ -88,14 +88,14 @@
 ## 🗓️ 4. One-Week Tentative Timeline (Day-by-Day Plan)
 
 | Day | Deliverable | Description |
-|------|-------------|-------------|
+|-----|-------------|-------------|
 | **Day 1** | GHAS Overview & Environment Setup | Understand GHAS components (Code Scanning, Secret Scanning, Dependabot) and prepare a test repository. |
 | **Day 2** | CodeQL Setup & Local Scanning | Install CodeQL CLI, create a database, run the first local scan, and review results. |
 | **Day 3** | CodeQL GitHub Integration | Configure CodeQL GitHub Action in the repo and compare local vs cloud scan results. |
 | **Day 4** | Secret Scanning Exploration | Trigger a test secret in the repo, observe alerts, resolve alerts, and test API retrieval of secret alerts. |
 | **Day 5** | Dependabot Setup & Alerts | Enable Dependabot alerts, introduce a vulnerable dependency, analyze the alert, and test API queries. |
 | **Day 6** | CLI & API Automation | Create small scripts/commands for automating CodeQL scans, uploading results, and fetching GHAS alerts via API. |
-| **Day 7** | PoC + Documentation + Demo Prep | Finalize PoC repo, write summary documentation, prepare demo slides, and validate all deliverables. |
+| **Day 7** | PoC + Documentation | Finalize PoC repo, write summary documentation, prepare demo slides, and validate all deliverables. |
 
 ---
 
