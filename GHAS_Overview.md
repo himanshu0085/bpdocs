@@ -7,12 +7,13 @@
 ---
 
 # 📘 Table of Contents
-- [1. What is GHAS?](#1-what-is-ghas)
-- [2. Why GHAS?](#2-why-ghas)
-- [3. Features of GHAS](#3-features-of-ghas)
-- [4. Components of GHAS](#4-components-of-ghas)
-- [5. Conclusion](#5-conclusion)
-- [6. References](#6-references)
+- [What is GHAS?](#1-what-is-ghas)
+- [Why GHAS?](#2-why-ghas)
+- [Features of GHAS](#3-features-of-ghas)
+- [Components of GHAS](#4-components-of-ghas)
+- [Conclusion](#5-conclusion)
+- [References](#6-references)
+
 
 ---
 
