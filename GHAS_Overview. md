@@ -7,102 +7,59 @@
 
 # 1. What is GHAS?
 
-GitHub Advanced Security (GHAS) is a suite of built-in security capabilities designed to help software teams identify, prevent, and remediate security risks directly within GitHub.  
-It enhances the software development lifecycle by integrating automated security testing into the developer workflow, ensuring vulnerabilities are caught early and remediated quickly.
-
-GHAS empowers organizations with advanced code analysis, secret exposure detection, and dependency vulnerability management — all without requiring additional external tools.
+GitHub Advanced Security (GHAS) is a suite of built‑in security tools designed to help developers identify, prevent, and remediate vulnerabilities directly inside GitHub. It brings automated code scanning, secret detection, and dependency security into the developer workflow.
 
 ---
 
 # 2. Why GHAS?
 
-Modern applications rely heavily on open-source libraries, automation, cloud services, and complex CI/CD systems.  
-This increases the risk of:
+GHAS improves security by:
 
-- Vulnerable code entering production  
-- Hardcoded secrets getting exposed  
-- Using outdated or vulnerable dependencies  
-- Insecure GitHub Actions workflows  
-
-**GHAS helps solve these problems by:**
-
-- Providing *shift-left security*: catching issues early in development  
-- Reducing reliance on multiple scattered tools  
-- Offering seamless integration within GitHub  
-- Automating alerts, scanning, and remediation  
-- Improving developer productivity with actionable insights  
-
-In short, GHAS enhances code quality and reduces security risks across the entire development lifecycle.
+- Detecting vulnerabilities early (shift‑left security)
+- Reducing reliance on external security tools
+- Providing actionable insights directly inside GitHub
+- Automatically scanning code, secrets, and dependencies
+- Helping maintain compliance and secure SDLC practices
 
 ---
 
 # 3. Features of GHAS
 
-GHAS provides the following major capabilities:
+### ✔ Code Scanning (CodeQL)
+- Performs static analysis to detect vulnerabilities  
+- Uses semantic queries to find security flaws  
+- Works via CLI, GitHub Actions, or API  
 
-### ✔️ **Code Scanning (via CodeQL)**
-- Performs deep static code analysis using semantic queries  
-- Detects vulnerabilities such as SQL injection, XSS, insecure deserialization  
-- Can run locally via CLI or automatically through GitHub Actions  
+### ✔ Secret Scanning
+- Detects hardcoded credentials like API keys, tokens, private keys  
+- Alerts developers in real time  
+- Supports custom secret patterns  
 
-### ✔️ **Secret Scanning**
-- Detects exposed credentials in real-time  
-- Alerts developers when API keys, tokens, or secrets are committed  
-- Supports custom secret patterns for organization-specific tokens  
-
-### ✔️ **Dependency Management (Dependabot)**
-- Identifies vulnerable open-source packages  
-- Suggests or auto-generates pull requests for upgrades  
-- Relies on GitHub’s continuously updated Advisory Database  
-
-### ✔️ **Security Overview Dashboard**
-- Centralized visibility of security alerts  
-- Tracks organization-level trends, exposures, and resolution progress  
-
-### ✔️ **GitHub Actions Security**
-- Identifies insecure workflow configurations  
-- Encourages least-privilege GitHub token permissions  
-- Ensures safe Actions usage with pinning and OIDC  
+### ✔ Dependency Management (Dependabot)
+- Identifies vulnerable dependencies  
+- Automates PRs with updated versions  
+- Uses GitHub's advisory vulnerability database  
 
 ---
 
 # 4. Components of GHAS
 
-GHAS consists of three primary technical components:
-
 | Component | Description | Key Capabilities |
 |----------|-------------|------------------|
-| **Code Scanning (CodeQL)** | Static code analysis using query-based engine | Detects vulnerabilities, supports multiple languages, integrates with CLI/API |
-| **Secret Scanning** | Detects hardcoded credentials in repositories | Alerts developers, supports custom patterns, integrates with API |
-| **Dependency Management (Dependabot)** | Monitors and remediates dependency vulnerabilities | Identifies CVEs, creates PRs, automates version updates |
-
-These components work together to provide a complete, automated application security framework inside GitHub.
+| Code Scanning (CodeQL) | Static code analysis engine | Detects vulnerabilities, supports multiple languages |
+| Secret Scanning | Detects exposed secrets | Alerts developers, supports custom patterns |
+| Dependabot | Dependency vulnerability management | Auto‑fixes vulnerabilities via PRs |
 
 ---
 
 # 5. Conclusion
 
-GitHub Advanced Security (GHAS) provides a powerful, developer-friendly security solution natively integrated into GitHub.  
-By combining CodeQL scanning, secret detection, and dependency management, GHAS enables teams to secure their codebases efficiently and proactively.
-
-Adopting GHAS improves:
-
-- Code quality  
-- Security posture  
-- Developer productivity  
-- Compliance readiness  
-
-GHAS eliminates the need for multiple standalone security tools and helps organizations implement true **shift-left security**.
+GHAS provides a powerful, integrated set of security features within GitHub. With CodeQL scanning, Secret Scanning, and Dependabot, teams can proactively detect weaknesses, secure codebases, and improve overall security posture—without needing external tools.
 
 ---
 
 # 6. References
-- GitHub Advanced Security Documentation  
-  https://docs.github.com/en/code-security  
-- CodeQL Documentation  
-  https://codeql.github.com/docs/  
-- GitHub REST API Security Docs  
-  https://docs.github.com/en/rest  
-- GitHub Actions Security Guide  
-  https://docs.github.com/en/actions/security-guides
-
+- https://docs.github.com/en/code-security  
+- https://codeql.github.com/docs/  
+- https://docs.github.com/en/rest/security-advisories  
+- https://docs.github.com/en/actions/security-guides  
